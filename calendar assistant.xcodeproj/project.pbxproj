@@ -14,6 +14,14 @@
 		762D339D2BF527A300B34DB7 /* calendar_assistantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762D339C2BF527A300B34DB7 /* calendar_assistantTests.swift */; };
 		762D33A72BF527A300B34DB7 /* calendar_assistantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762D33A62BF527A300B34DB7 /* calendar_assistantUITests.swift */; };
 		762D33A92BF527A300B34DB7 /* calendar_assistantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762D33A82BF527A300B34DB7 /* calendar_assistantUITestsLaunchTests.swift */; };
+		762D33B62BF558E100B34DB7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762D33B52BF558E100B34DB7 /* HomeView.swift */; };
+		762D33B82BF5590D00B34DB7 /* CalendarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762D33B72BF5590D00B34DB7 /* CalendarListView.swift */; };
+		762D33BD2BF55B3E00B34DB7 /* CodeDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762D33BC2BF55B3E00B34DB7 /* CodeDataStack.swift */; };
+		762D33C72BF5603600B34DB7 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 762D33C52BF5603600B34DB7 /* DataModel.xcdatamodeld */; };
+		762D33CD2BF5633300B34DB7 /* AnniversaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762D33CC2BF5633300B34DB7 /* AnniversaryViewModel.swift */; };
+		762D33CF2BF5643600B34DB7 /* AddAnniversaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762D33CE2BF5643600B34DB7 /* AddAnniversaryView.swift */; };
+		762D33D12BF5666600B34DB7 /* EventKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762D33D02BF5666600B34DB7 /* EventKitManager.swift */; };
+		762D33D32BF573F000B34DB7 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762D33D22BF573F000B34DB7 /* CalendarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		762D33A22BF527A300B34DB7 /* calendar assistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "calendar assistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		762D33A62BF527A300B34DB7 /* calendar_assistantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar_assistantUITests.swift; sourceTree = "<group>"; };
 		762D33A82BF527A300B34DB7 /* calendar_assistantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar_assistantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		762D33B52BF558E100B34DB7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		762D33B72BF5590D00B34DB7 /* CalendarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarListView.swift; sourceTree = "<group>"; };
+		762D33BC2BF55B3E00B34DB7 /* CodeDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDataStack.swift; sourceTree = "<group>"; };
+		762D33C62BF5603600B34DB7 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		762D33CC2BF5633300B34DB7 /* AnniversaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversaryViewModel.swift; sourceTree = "<group>"; };
+		762D33CE2BF5643600B34DB7 /* AddAnniversaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnniversaryView.swift; sourceTree = "<group>"; };
+		762D33D02BF5666600B34DB7 /* EventKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitManager.swift; sourceTree = "<group>"; };
+		762D33D22BF573F000B34DB7 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,7 @@
 		762D337F2BF527A200B34DB7 = {
 			isa = PBXGroup;
 			children = (
+				762D33C52BF5603600B34DB7 /* DataModel.xcdatamodeld */,
 				762D338A2BF527A200B34DB7 /* calendar assistant */,
 				762D339B2BF527A300B34DB7 /* calendar assistantTests */,
 				762D33A52BF527A300B34DB7 /* calendar assistantUITests */,
@@ -94,10 +111,17 @@
 		762D338A2BF527A200B34DB7 /* calendar assistant */ = {
 			isa = PBXGroup;
 			children = (
+				762D33D02BF5666600B34DB7 /* EventKitManager.swift */,
 				762D338B2BF527A200B34DB7 /* calendar_assistantApp.swift */,
 				762D338D2BF527A200B34DB7 /* ContentView.swift */,
 				762D338F2BF527A300B34DB7 /* Assets.xcassets */,
 				762D33912BF527A300B34DB7 /* Preview Content */,
+				762D33B52BF558E100B34DB7 /* HomeView.swift */,
+				762D33B72BF5590D00B34DB7 /* CalendarListView.swift */,
+				762D33BC2BF55B3E00B34DB7 /* CodeDataStack.swift */,
+				762D33CC2BF5633300B34DB7 /* AnniversaryViewModel.swift */,
+				762D33CE2BF5643600B34DB7 /* AddAnniversaryView.swift */,
+				762D33D22BF573F000B34DB7 /* CalendarView.swift */,
 			);
 			path = "calendar assistant";
 			sourceTree = "<group>";
@@ -257,7 +281,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762D33B62BF558E100B34DB7 /* HomeView.swift in Sources */,
+				762D33D12BF5666600B34DB7 /* EventKitManager.swift in Sources */,
+				762D33CF2BF5643600B34DB7 /* AddAnniversaryView.swift in Sources */,
+				762D33C72BF5603600B34DB7 /* DataModel.xcdatamodeld in Sources */,
+				762D33D32BF573F000B34DB7 /* CalendarView.swift in Sources */,
+				762D33CD2BF5633300B34DB7 /* AnniversaryViewModel.swift in Sources */,
+				762D33BD2BF55B3E00B34DB7 /* CodeDataStack.swift in Sources */,
 				762D338E2BF527A200B34DB7 /* ContentView.swift in Sources */,
+				762D33B82BF5590D00B34DB7 /* CalendarListView.swift in Sources */,
 				762D338C2BF527A200B34DB7 /* calendar_assistantApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -588,6 +620,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		762D33C52BF5603600B34DB7 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				762D33C62BF5603600B34DB7 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 762D33C62BF5603600B34DB7 /* DataModel.xcdatamodel */;
+			name = DataModel.xcdatamodeld;
+			path = "/Users/wangdengyuan/Desktop/mobile app selflearning/calendar assistant/calendar assistant/DataModel.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 762D33802BF527A200B34DB7 /* Project object */;
 }
